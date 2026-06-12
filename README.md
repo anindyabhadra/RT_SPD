@@ -1,4 +1,4 @@
-# RT_SPD: Reverse Telescoping (RT) Generative SPD Split Flow and Langevin Diffusion
+# RT_SPD: Reverse Telescoping (RT) Generative SPD Split Flow and Intrinsic Langevin Diffusion
 
 This repository is organized around the synthetic experiments reported in the paper.
 
