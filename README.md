@@ -8,6 +8,7 @@ From the repository root run:
 
 ```
 bash setup_venv.sh
+source .venv_rt/bin/activate
 ```
 
 ## Layout
