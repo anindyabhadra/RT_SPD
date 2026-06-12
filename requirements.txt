@@ -1,0 +1,9 @@
+numpy>=1.26,<2.0
+scipy
+matplotlib
+scikit-learn
+torchdiffeq
+torchcfm
+pyriemann
+tabulate
+geoopt
