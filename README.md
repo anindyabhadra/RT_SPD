@@ -45,7 +45,7 @@ python basic_rt/verify_rt.py --p 8
 
 This checks reconstruction of `Theta`, direct reconstruction of `Theta^{-1}`, square-root decoders, the log-determinant coordinate, determinant-one normalized shape paths, and the intrinsic `y=(v,d,beta)` decoder.
 
-## Generative flow experiments
+## Generative flow experiment
 
 From the repository root, to run only the two RT flows:
 
