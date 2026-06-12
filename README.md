@@ -6,7 +6,8 @@ This repository is organized around the synthetic experiments reported in the pa
 
 From the repository root run:
 
-```bash setup_venv.sh
+```bash
+setup_venv.sh
 ```
 
 ## Layout
