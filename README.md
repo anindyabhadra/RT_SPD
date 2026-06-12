@@ -84,12 +84,14 @@ python langevin/rt_intrinsic_langevin_wishart_mixture_mainfig.py \
 
 To remove cached files, from the repository root run:
 
-```bash cleanup_venv.sh
+```bash
+cleanup_venv.sh
 ```
 
 To remove cached files and results, from the repository root run:
 
-```bash cleanup_venv.sh --all
+```bash
+cleanup_venv.sh --all
 ```
 
 ## License
