@@ -13,6 +13,8 @@ source .venv_rt/bin/activate
 
 ## Layout
 
+The repository structure is as follows.
+
 ```text
 basic_rt/
   rt_core.py                 Core RT encoding/decoding/square-root/verification routines.
