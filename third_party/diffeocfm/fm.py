@@ -3,7 +3,6 @@ import numpy as np
 import torch
 import torch.nn.functional as F
 from sklearn.model_selection import train_test_split
-#from scikit-learn.model_selection import train_test_split
 
 from torchdiffeq import odeint
 from torchcfm.conditional_flow_matching import (
