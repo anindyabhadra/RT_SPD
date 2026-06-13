@@ -2,7 +2,7 @@
 
 This repository contains code for working with symmetric positive definite (SPD) matrices in the reverse telescoping (RT) parameterization. Code is provided for:
 
-1. Basic utilities, including the encoding and decoding of an SPD matrix, its inverse and matrix square roots in RT coordinates.
+1. Basic utilities, including the encoding and decoding of an SPD matrix, its inverse and matrix square roots in RT coordinates, including comparisons with baselines.
 
 2. Generative modeling of SPD-valued data by linear split volume--shape flow in RT coordinates learned by conditional flow matching.
 
