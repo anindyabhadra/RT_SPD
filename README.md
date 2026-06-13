@@ -114,3 +114,13 @@ This repository also contains selected third-party baseline files under
 
 ## Reference
 
+Bhadra, A. (2026). The Reverse Telescoping Coordinate System for Positive Definite Matrices: Geometry, Computation, and Generative Modeling.
+
+```
+@article{gao2025order,
+  title={The Reverse Telescoping Coordinate System for Positive Definite Matrices: Geometry, Computation, and Generative Modeling},
+  author={Bhadra, Anindya},
+  journal={arXiv preprint arXiv:26XX.XXXX},
+  year={2026}
+}
+```
