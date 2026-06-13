@@ -89,7 +89,7 @@ python langevin/rt_intrinsic_langevin_wishart_mixture_mainfig.py \
   --out rt_langevin_wishart_mixture.png
 ```
 
-## Removing cached files and cleanup
+## Removing the virtual environment and cleanup
 
 To remove cached files, from the repository root run:
 
