@@ -1,6 +1,12 @@
 # RT_SPD: Reverse Telescoping (RT) Generative SPD Split Flow and Intrinsic Langevin Diffusion
 
-This repository is organized around the synthetic experiments reported in the paper.
+This repository contains code for working with symmetric positive definite (SPD) matrices in the reverse telescoping (RT) coordinates. Code is provided for:
+
+1. Basic utilities, including the encoding and decoding of an SPD matrix, its inverse and matrix square roots in RT coordinates.
+
+2. Generative modeling of SPD-valued data by linear split volume--shape flow in RT coordinates learned by conditional flow matching.
+
+3. Intrinsic Langevin diffusion on the SPD manifold in RT coordinates.
 
 ## Setting up the virtual environment
 
