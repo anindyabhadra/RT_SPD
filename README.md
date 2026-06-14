@@ -35,6 +35,8 @@ flows/
                              Conditional triangular RT Hamiltonian/divergence-free flow.
 
 langevin/
+  rt_intrinsic_langevin_wishart_mainfig.py
+                             Intrinsic RT Langevin sampler for single Wishart target.
   rt_intrinsic_langevin_wishart_mixture_mainfig.py
                              Intrinsic RT Langevin sampler for Wishart-mixture targets.
                              
@@ -73,6 +75,23 @@ python flows/run_wishart_spd_baselines_distributional.py \
 To include DiffeoCFM and Riemannian SPD-CFM baselines omit the `--skip-diffeocfm` / `--skip-spd-cfm` flags.
 
 ## Intrinsic Langevin experiment
+
+For the single Wishart target, run:
+
+```bash
+python langevin/rt_intrinsic_langevin_wishart_mainfig.py \
+  --p-list 20 50\
+  --df-extra 20 \
+  --n-chains 128 \
+  --n-steps 10000 \
+  --burn-in 3000 \
+  --thin 50 \
+  --dt 1e-4 \
+  --n-true 8000 \
+  --out rt_langevin_wishart_mainfig.png
+```
+
+For the two-component Wishart mixture target, run:
 
 ```bash
 python langevin/rt_intrinsic_langevin_wishart_mixture_mainfig.py \
